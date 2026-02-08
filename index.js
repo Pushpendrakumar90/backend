@@ -52,9 +52,10 @@ app.use((err, req,res,next)=> {
 
 
 // port number and listen server-
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 5000
 app.listen(PORT, ()=>{
     console.log(`server is ready http://localhost:${PORT}`); 
 })
+
 
 
